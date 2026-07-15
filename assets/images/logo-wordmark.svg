@@ -1,0 +1,9 @@
+<svg width="240" height="64" viewBox="0 0 240 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wayfarer">
+  <rect width="64" height="64" rx="16" fill="#0B5E4C"></rect>
+  <path d="M32 12 L39 32 L32 27 Z" fill="#F2A900"></path>
+  <path d="M32 12 L25 32 L32 27 Z" fill="#FCE9B5"></path>
+  <path d="M32 52 L25 32 L32 37 Z" fill="#F2A900"></path>
+  <path d="M32 52 L39 32 L32 37 Z" fill="#D98E00"></path>
+  <circle cx="32" cy="32" r="3.2" fill="#FAF7F2"></circle>
+  <text x="80" y="42" font-family="Newsreader, Georgia, serif" font-size="32" font-weight="600" letter-spacing="-0.4" fill="#1F2421">Wayfarer</text>
+</svg>

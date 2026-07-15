@@ -1,0 +1,13 @@
+/* Wayfarer — RTL helpers.
+   Activated by `dir="rtl"` on <html>. The system relies mostly on flex/grid
+   (which mirror automatically); these rules flip the few physical bits and set
+   the base text direction so Arabic/Hebrew content aligns correctly. */
+
+[dir="rtl"] body { direction: rtl; text-align: right; }
+
+/* Keep the mono/number runs (prices, refs) LTR so they read correctly */
+[dir="rtl"] .u-mono,
+[dir="rtl"] [data-ltr] { direction: ltr; unicode-bidi: isolate; }
+
+/* Logical fallbacks for any leftover physical margins on icon rows */
+[dir="rtl"] .wf-flip { transform: scaleX(-1); }
